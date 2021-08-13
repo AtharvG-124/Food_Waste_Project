@@ -1,0 +1,377 @@
+body{
+
+    background: url(Food_main_img.png) no-repeat;
+    background-size: cover;
+    background: #373837;
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+	display: flex;
+	flex-direction: column;
+	letter-spacing: 1px;
+	font-family: "Optima", sans-serif;
+}
+
+.logo{
+    cursor: pointer;
+    font-family: "Optima", sans-serif;
+    font-color: green;
+    height: 40px;
+    width: 200px;
+    padding-left: 10px;
+    border: none;
+    font-weight: bold;
+    color: #00e029;
+    font-size: 30px;
+    background: none;
+    float: left;
+
+}
+
+nav{
+
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: rgba(0,0,0,0.5);
+    backdrop-filter: blur(4px);
+
+}
+
+.head-text{
+    align-items: center;
+    position: absolute;
+    border-radius: 20px;
+    top: 414px;
+    left: 722px;
+    color: white;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    text-align: center;
+    background-color: rgba(0,0,0,0.4);
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    backdrop-filter: blur(4px);
+
+}
+
+.head-text h1{
+
+    color: #00e029;
+
+}
+
+.main-body{
+
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    z-index: 3;
+    width: 100%;
+
+}
+
+.problem-solution-head{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-style: italic;
+    transform: translate(21%, 100px);
+    width: 70%;
+    position: fixed;
+
+
+}
+
+.about-head{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    transform: translate(49%, 80px);
+    width: 50%;
+    line-height: 1.6;
+    position: fixed;
+
+}
+
+.green, .about-head a{
+
+    color: #00e029;
+
+}
+.solution{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    z-index: 3;
+    width: 100%;
+
+}
+.problem-solution-head h1, .about-head h1{
+
+    font-size: 60px;
+    color: #00e029;
+    text-shadow: 4px 4px rgba(0, 224, 41, 0.4);
+
+}
+
+.nav-button{
+	cursor: pointer;
+    height: 40px;
+    width: 120px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    float: right;
+    margin-left: 7px;
+    margin-right: 7px;
+    font-family: "Optima", sans-serif;
+    font-size: 18px;
+    background: none;
+    transition: background 0.5s ease-in-out;
+
+}
+
+
+.center{
+
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    z-index: 4;
+
+}
+
+.center2{
+    display: flex;
+    position: relative;
+    left: 10px;
+    width: 100%;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    flex-direction: column;
+    z-index: 4;
+}
+.gradient-text{
+
+    background: linear-gradient(to right, #00e029, #02e1f5);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    width: auto;
+}
+
+.button {
+    border: 2px solid #ffffff;
+    height: 60px;
+    width: 220px;
+    font-weight: bold;
+    margin: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: "Optima", sans-serif;
+    border-radius: 100px;
+    font-size: 16px;
+    background: none;
+    color: white;
+    transition: background 0.5s ease-in-out;
+
+}
+
+.button:hover, .nav-button:hover{
+    background: #00ba3b;
+    color: white;
+    border-color: #00ba3b;
+    transition-delay: 0.1s;
+}
+
+.left-img-info img{
+
+    position: relative;
+    display: inline-block;
+    width: 101%;
+    margin-top: -4px;
+    height: 500px;
+    object-fit: cover;
+    object-position: 10% 50%;
+    z-index: 2;
+
+}
+.right-img-info img{
+
+    position: relative;
+    display: inline-block;
+    width: 101%;
+    margin-top: -4px;
+    height: 500px;
+    object-fit: cover;
+    object-position: 10% 50%;
+    z-index: 2;
+
+}
+.bg{
+
+    background: #373837;
+    z-index: 3;
+    margin-top: -4px;
+
+}
+
+.bg1{
+
+    background: #373837;
+    z-index: 3;
+    margin-top: -4px;
+
+}
+.bg2{
+
+   background: rgb(55,56,55);
+   background: linear-gradient(180deg, rgba(55,56,55,0) 0%, rgba(55,56,55,0.2819502801120448) 15%,
+   rgba(55,56,55,0.5088410364145659) 31%, rgba(55,56,55,0.8225665266106442) 68%, rgba(55,56,55,0.8309698879551821) 69%,
+   rgba(55,56,55,1) 100%);
+
+    z-index: 3;
+    margin-top: -4px;
+
+}
+
+.bg3{
+
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    backdrop-filter: blur(3px);
+
+}
+.stats-img{
+    display: table;
+    margin: 0 auto;
+    margin-top: -4px;
+    margin-bottom: 4px;
+    z-index: 2;
+
+}
+
+.stats-img img{
+    height: 640px;
+    width: 800px;
+    object-fit: cover;
+    overflow: hidden;
+    object-position: 20% 10%;
+}
+
+.left-aligned{
+
+    position: absolute;
+    top: 490px;
+    left: 0px;
+    height: 460px;
+    color: #00e029;
+    z-index: 4;
+    width: 40%;
+    text-align: left;
+    background-color: rgba(0,0,0,0.4);
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    backdrop-filter: blur(4px);
+
+}
+
+.right-aligned{
+
+    position: absolute;
+    top: 1633px;
+    right: -15px;
+    height: 460px;
+    color: #00e029;
+    z-index: 4;
+    width: 40%;
+    text-align: left;
+    background-color: rgba(0,0,0,0.4);
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    backdrop-filter: blur(4px);
+
+}
+.left-aligned p, .right-aligned p{
+
+    color: white;
+
+}
+
+.solutionp, .main-body p{
+
+    text-align: center;
+    line-height: 1.6;
+    width: 50%;
+    color: #fff;
+    font-size: 20px;
+
+
+}
+
+.resize{
+    display: flex;
+    width: 200px;
+    height: auto;
+    border: 2px solid green;
+    border-radius: 20px;
+    margin: 15px;
+    flex-direction: column;
+}
+
+.resize2{
+    display: flex;
+    width: 600px;
+    height: auto;
+    border: 2px solid green;
+    border-radius: 20px;
+    margin: 10px;
+    flex-direction: column;
+}
+
+.resize3{
+    display: flex;
+    width: 250px;
+    height: auto;
+    border: 2px solid green;
+    border-radius: 20px;
+    margin: 10px;
+    flex-direction: column;
+    margin-top: -30px;
+}
+
+.sources{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+
+}
